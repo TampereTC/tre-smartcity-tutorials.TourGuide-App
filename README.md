@@ -1,4 +1,4 @@
-# FIWARE Tour Guide Application
+# FIWARE Tour Guide Application, Tampere Smart City edition
 
 [![License][license-image]][license-url]
 [![Documentation badge](https://readthedocs.org/projects/fiwaretourguide/badge/?version=latest)](http://fiwaretourguide.readthedocs.io/en/latest/fiware-tour-guide-application-a-tutorial-on-how-to-integrate-the-main-fiware-ges/introduction/)
