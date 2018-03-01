@@ -68,7 +68,7 @@ USER ${TOURGUIDE_USER}
 WORKDIR ${TOURGUIDE_USER_DIR}
 
 # get the repository from git and install node dependencies
-RUN git clone -b ${GIT_REV_TOURGUIDE} https://github.com//TampereTC/tre-smartcity-tutorials.TourGuide-App.git && \
+RUN git clone -b ${GIT_REV_TOURGUIDE} ${GIT_URL_TOURGUIDE} && \
     cd ${CC_APP_SERVER_PATH} && \
     npm install --loglevel warn && \
     rm -fr ${TOURGUIDE_USER_DIR}/.npm
