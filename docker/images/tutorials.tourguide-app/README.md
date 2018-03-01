@@ -1,4 +1,4 @@
-## FIWARE Tour Guide Application - Docker image
+## FIWARE Tour Guide Application - Docker image, Tampere Smart City edition
 
 [FIWARE Tour Guide Application](https://github.com/Fiware/tutorials.TourGuide-App) is the sample application used in the [FIWARE Tour Guide](http://www.fiware.org/tour-guide/) to show real code working with the Generic Enablers integrated.
 
