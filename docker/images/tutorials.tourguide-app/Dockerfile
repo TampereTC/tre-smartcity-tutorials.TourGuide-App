@@ -12,7 +12,7 @@ ENV TOURGUIDE_USER_DIR /home/${TOURGUIDE_USER}
 ENV GIT_URL_TOURGUIDE https://github.com/TampereTC/tre-smartcity-tutorials.TourGuide-App.git
 ENV GIT_REV_TOURGUIDE develop
 ENV SUBSCRIPTIONS_PATH /opt/subscribe
-ENV CC_APP_SERVER_PATH ${TOURGUIDE_USER_DIR}/tutorials.TourGuide-App/server
+ENV CC_APP_SERVER_PATH ${TOURGUIDE_USER_DIR}/tre-smartcity-tutorials.TourGuide-App/server
 
 # create tourguide user
 RUN adduser --disabled-password --gecos "${TOURGUIDE_USER}" ${TOURGUIDE_USER}
