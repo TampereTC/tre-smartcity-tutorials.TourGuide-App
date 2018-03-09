@@ -7,7 +7,7 @@ mongodb:
     command: --smallfiles
 
 orion:
-    image: tamperetc/tre-smartcity-context.orion:latest
+    image: tamperetc/tre-smartcity-orion:latest
     hostname: orion
     container_name: orion
     links:
