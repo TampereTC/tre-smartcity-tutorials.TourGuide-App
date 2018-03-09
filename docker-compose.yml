@@ -39,7 +39,7 @@ keyrock:
         - "8000:8000"
 
 idas:
-    image: fiware/iotagent-ul:develop
+    image: tamperetc/tre-smartcity-iotagent-ul:latest
     hostname: idas
     container_name: idas
     links:
