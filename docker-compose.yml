@@ -1,5 +1,5 @@
 mongodb:
-    image: mongo:3.6
+    image: mongo:3.4
     hostname: mongodb
     container_name: mongodb
     expose:
